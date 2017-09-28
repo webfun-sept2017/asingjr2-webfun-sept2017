@@ -1,0 +1,69 @@
+<!--Users Assignment for CD.  Creating table and form that appends forms when submitted-->
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>USERS_AS</title>
+    <meta charset="UTF-8">
+    <meta name="users_as" content="simple table with form that appends info to form">
+    <link rel="stylesheet" type="text/css" href="users.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        
+        $(document).ready(function(){
+           alert("hi Arthur");      
+        
+        $('#submit_button').click(function(){
+            var textf = $("#firstn_box").val();
+            var textl = $("#lastn_box").val();
+            var texte = $("#email_box").val();
+            var textc = $("#contact_box").val();
+            
+        $("table").append(
+            '<tr><td>' + textf + 
+            '</td><td>' + textl + 
+            '</td><td>' + texte + 
+            '</td><td>' +textc + 
+            '</td></tr>'
+            );
+        return false;})
+            })
+     
+        
+    </script>
+</head>
+<body>
+    <div class="table_box">
+        <table>
+            <thead>checking this out
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email Addres</th> 
+                    <th id="test" name="strong">Contact #</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="tr_1">
+                    <td class="firstn"></td>
+                    <td class="lastn"></td>
+                    <td class="email"></td>
+                    <td class="contact"></td>
+                </tr>
+            </tbody>
+            
+        </table>
+    </div>
+    <form>
+        <h1>ADD USER</h1>
+        First Name:<input type="text" id="firstn_box"><br>
+        Last Name:<input type="text" id="lastn_box"><br>
+        Email:<input type="text" id="email_box"><br>
+        Contact:<input type="text" id="contact_box"><br>
+        <input id='submit_button' type="submit" value="Add User">
+    </form>
+
+ 
+    
+</body>
+</html>

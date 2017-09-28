@@ -1,0 +1,44 @@
+/* Users Assignment CSS*/
+
+.table_box{
+    width: 700px;
+    border: 2px solid black;
+    display: inline-bocks;
+    margin:20px;
+}
+
+th{
+    color:black;
+    font-weight: bold;
+    margin:20px;
+    display:inline
+
+   
+}
+tr{
+    color:black;
+    font-weight: bold;
+    margin:100px;
+    overflow: wrap;
+    word-wrap:normal;
+}
+
+h1{
+    width:300px;
+    text-decoration:underline;
+    display: block
+}
+form{
+    margin-left:20px;
+}
+input{
+    display:inline;
+    position: absolute;
+    left: 150px;
+   
+}
+
+#submit_button{
+    margin:20px;
+    display:block
+}

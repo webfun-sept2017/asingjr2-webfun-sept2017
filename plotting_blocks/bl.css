@@ -1,0 +1,58 @@
+.container{
+    height: 700px;
+    width:1000px;
+    background-color: grey;
+    display: block;
+    margin: 5px
+}
+#green{
+    height: 100px;
+    width:85%;
+    display: block;
+    background-color:green;
+    margin:10px
+    
+}
+#rb{
+    display: inline-block;
+    backgroun-color:orange;
+    height: 400px;
+    width:95%;
+    margin: 10px;
+    border:2px solid black
+}
+#blue{
+display: inline-block;
+height: 45%;
+width: 20%;
+background-color:blue;
+float:left;
+margin:10px
+}
+
+#container2{
+    display: inline-block;
+    background-color:red;
+    height: 90%;
+    width: 75%;
+    float:left;
+    margin: 10px
+}
+li{
+    height: 160px;
+    width:170px;
+    background-color:yellow;
+    border:1px solid black;
+    margin:auto;
+    margin-left: 30px;    
+    display:inline-block
+}
+#purple{
+    display: block;
+    height: 100px; 
+    width: 80%;
+    background-color:purple;
+    margin:0 auto
+}
+
+

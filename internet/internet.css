@@ -1,0 +1,205 @@
+/*Internet Webpage Structure*/
+.main_container{
+    height:2000;
+    width:970;
+    background-color:white;
+    background-color:blue;
+    background:-webkit-linear-gradient(hsla(0, 10%, 65%, 0.59), white)
+    ;
+    background:-o-linear-gradient(hsla(0, 10%, 65%, 0.59), white)
+    ;
+    background:-moz-linear-gradient(hsla(0, 10%, 65%, 0.59), white);
+    background:linear-gradient(hsla(0, 10%, 65%, 0.59)), white);
+    /*technically light blue gradient to white*/;
+    padding-left:20px;
+    padding-right:20px;
+    border-top:5px solid black;
+    /*could give top div border also*/
+    
+    
+}
+#topone{
+    height:100px;
+    width:968px;
+    
+    display:block
+    
+}
+#topone img{
+    height:130px;
+    width:100px;
+}
+#topone p{
+    font-size:60px;
+    color:black;
+    position:relative;
+    top:-160px;
+    left:100px;
+}
+
+#telephone{
+    color:blue;
+    text-decoration-line: bold;
+}
+#toptwo{
+    display:block;
+    height:100px;
+    width:968px;
+    color:white;
+    font-size:24px;
+    padding:10px 0px;
+    background-color:blue;
+    background:-webkit-radial-gradient(#8897C7, blue)
+    ;
+    background:-o-radial-gradient(#8897C7, blue)
+    ;
+    background:-moz-radial-gradient(#8897C7, blue)
+    ;
+    background:radial-gradient(#8897C7, blue)
+    ;
+    /*add radial gradient with white*/
+    
+}
+#middle_left{
+    height:600px;
+    width:250px;
+    
+    display:inline-block;
+    margin-left:10px;
+    margin-right:50px;
+    vertical-align: top;
+}
+#middle_left #buttons{
+    height:120;
+    width:300px;
+    
+
+
+}
+#middle_left #mlwords{
+    width:100%;
+    height:150px;
+    text-align: left;
+    overflow:wrap;
+    word-wrap:break;
+
+
+
+}
+#middle_left p{
+        display: inline;        width:100px;
+        padding: 10px;
+
+    
+   
+    
+    
+}
+#middle_right{
+    height:800px;
+    width:550px;
+    
+    display:inline-block;
+    margin-right:10px;
+}
+#mrone_right{
+    display: inline-block;
+    height:80px;
+    width:150px;
+   
+    font-size:15px;
+    
+    
+}
+h4{
+    color:blue
+}
+#mrone{
+    border-bottom:2px solid blue;
+}
+#mrone img{
+    height:60px;
+    width:40px;
+    display:inline-block;
+    margin-left:160px;
+    
+}
+#mrone #pic_dnc p{
+    display:inline-block;
+    position: relative;
+    bottom:50px;
+    left:50px;
+}
+#mrone #pic_dnc{
+    display:inline-block;
+    height:80px;
+    width:150px;
+    
+    font-size:15px;
+    margin-top:-20px;
+}
+#house{
+    height:10px;
+    width:10px;
+    position: relative;
+    right:155px;
+
+}
+#midtwo{
+    padding:10px;
+}
+#midtwo ul li{
+    margin-left:5px;
+    padding-left:10px;
+}
+#server{
+    height:150px;
+    width:350px;
+    margin-left:100px;
+}
+#last{
+    height:150px;
+    width:548px;
+    border-top: 4px solid blue;
+    border-left: 4px solid blue;
+    border-right: 4px solid blue;
+
+}
+#last img{
+    height: 80%;
+    width:120px;
+    display:inline-block;
+}
+#last_text{
+    display:inline-block;
+}
+#last_text{
+    font-size:14px;
+    display:inline-block;
+    height:80%;
+    width:40%;
+    margin-left:40px;
+}
+#blue_letter{
+    color:blue;
+}
+#button1{
+    background-color: blue;
+    width:100%;
+    height:40px;
+    margin-bottom:10px;
+}
+#button2{
+    background-color: orange;
+    width:100%;
+    height:40px;
+    margin-bottom:10px;
+}
+#ninja{
+    background-image: url(ad_background.png);
+    background-repeat:no-repeat;
+    width:250px;
+}
+#span_red{
+    color:red
+}
