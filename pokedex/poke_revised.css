@@ -1,0 +1,40 @@
+#container{
+  font-family:monospace;
+  font-weight:bold;
+}
+  
+h2 {
+  border: 1px dotted green;
+  display:block
+}
+
+  #wrapper{
+      height: auto;
+      width: 1400px;
+      border: 1px dotted #7878DF;
+      display:block;
+      padding:10px;
+  }
+
+  .poke_images{
+      border: 1px dotted #A6A6DA;
+      /* display:inline-block; */
+      float:left;
+      margin:10px;
+      height:auto;
+      width:900px;
+      padding:15px;
+
+
+  }
+
+  .pokedex {
+      border: 20px solid #5D5DAA;
+      /* display:inline-block; */
+      float:left;
+      padding:10px;
+      margin:10px;
+      height:1470px;
+      width:300px;
+
+  }

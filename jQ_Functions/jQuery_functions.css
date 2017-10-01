@@ -1,0 +1,18 @@
+/* Basic Stuff*/
+.more_height{
+    height:40px;
+    font-weight: bold;
+    text-decoration:dodgerblue;
+    text-decoration-line: underline
+}
+
+.red{
+    color:red
+}
+.yellow{
+    color:#ECEC3C
+}
+
+.border{
+    border:5px dotted pink
+}
