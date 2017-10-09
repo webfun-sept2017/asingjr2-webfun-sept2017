@@ -1,4 +1,4 @@
-#Strings and Lists
+#Strings and Lists Assignment
 #Find and Replace
 words = "It's thanksgiving day. It's my birthday,too!"
 print(words.find('day'))
